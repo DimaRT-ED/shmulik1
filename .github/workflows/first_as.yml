@@ -1,0 +1,29 @@
+name: First-action
+on: 
+  push:
+    branches: 
+    - master
+
+jobs:
+  part-1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello msg part-----1
+        run: echo "HELLO WORLD!!! part-----1"
+
+      - name: list directory
+        run: ls -la
+
+      - run: echo 11111 > 1
+      
+      - name: list directory
+        run: ls -la
+        
+  part-2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello msg part-----2
+        run: echo "HELLO WORLD!!! part-----2"
+
+      - name: list directory
+        run: ls -la
