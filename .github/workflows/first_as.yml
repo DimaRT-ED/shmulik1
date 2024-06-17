@@ -12,7 +12,7 @@ jobs:
         run: echo "HELLO WORLD!!! part-----1"
 
       - name: list directory
-        run: ls -la
+        run: sleep 3
 
       - run: echo 11111 > 1
       
@@ -26,4 +26,4 @@ jobs:
         run: echo "HELLO WORLD!!! part-----2"
 
       - name: list directory
-        run: ls -la
+        run: sleep 3
